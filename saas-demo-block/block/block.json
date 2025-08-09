@@ -1,0 +1,18 @@
+{
+  "apiVersion": 2,
+  "name": "sdb/demo-card",
+  "title": "SaaS Demo Card",
+  "category": "widgets",
+  "icon": "megaphone",
+  "textdomain": "saas-demo-block",
+  "attributes": {
+    "name":    { "type": "string", "default": "Acme Cloud" },
+    "tagline": { "type": "string", "default": "Your simple and scalable SaaS platform." },
+    "price":   { "type": "string", "default": "$19/month" },
+    "ctaLabel":{ "type": "string", "default": "Start Free Trial" },
+    "ctaUrl":  { "type": "string", "default": "https://example.com/signup" },
+    "features":{ "type": "array",  "default": ["Fast onboarding", "API integration", "24/7 support"] },
+    "status":  { "type": "string", "default": "unknown" }
+  },
+  "editorScript": "sdb-editor"
+}
