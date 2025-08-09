@@ -45,3 +45,7 @@ SebWpSoft
 
 ## License
 GPLv2 or later
+
+
+## Screenshot
+![SaaS Demo Card – Editor view](Screenshot.png)
